@@ -27,8 +27,8 @@ local player = {
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local silence = WindUI:CreateWindow({
-    Title = "Silence - Tap Simulator",
-    Author = "by Henne @imhenne",
+    Title = "SL HUB - Tap Simulator",
+    Author = "by Flexxy @joyboiflexxy03",
     Icon = "solar:moon-bold",
     IconSize = 13*2,
     Theme = "Crimson",
@@ -55,7 +55,7 @@ local silence = WindUI:CreateWindow({
 })
 
 silence:Tag({
-    Title = "Silence [V.3]",
+    Title = "SL HUB [V.3]",
     Icon = "github",
     Color = Color3.fromHex("#1c1c1c"),
     Border = true,
@@ -91,7 +91,7 @@ local tabs = {
         IconShape = "Square",
         Border = true,
     }),
-    hatching = silence:Tab({
+    hatching = SL:Tab({
         Title = "Auto Hatching",
         Desc = "Hatch Eggs and delete Pets Automatically",
         Icon = "lucide:egg",
@@ -2123,10 +2123,10 @@ local elements = {
         }),
         tabs.info:Button({
             Title = "Copy Discord Invite",
-            Desc = "dsc.gg/silenceontop",
+            Desc = "dsc.gg/slhub",
             Icon = "lucide:clipboard",
             Callback = function()
-                setclipboard("https://discord.gg/9eFf93Kg8D")
+                setclipboard("https://discord.gg/37wfyjS7F8")
                 WindUI:Notify({
                     Title = "Silence Studios",
                     Content = "Invite Copied to Clipboard!"
@@ -2148,6 +2148,6 @@ local elements = {
 }
 
 WindUI:Notify({
-    Title = "Silence V3",
+    Title = "SL HUB V3",
     Content = "Script loaded completely"
 })
