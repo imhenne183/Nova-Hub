@@ -5,6 +5,6 @@
 getgenv().supported= {
     [107778070777162] = "https://raw.githubusercontent.com/silencedevs/SilenceScripts/main/Scripts/StealAnEgg/Main.luau", -- Steal An Egg
     [3623096087] = "https://raw.githubusercontent.com/silencedevs/SilenceScripts/main/Scripts/MuscleLegends/Loader.luau", -- Muscle Legends
-    [75992362647444] = "https://raw.githubusercontent.com/silencedevs/SilenceScripts/refs/heads/main/Scripts/TapSimulator/Main.luau", -- Tap Simulator
-    [72858262610964] = "https://raw.githubusercontent.com/silencedevs/SilenceScripts/refs/heads/main/Scripts/TapSimulatorReborn/Main.luau", -- Tap Simulator Reborn
+    [75992362647444] = "https://raw.githubusercontent.com/imhenne183/Scripts/refs/heads/main/Nova%20Hub%20X%20Tap%20Simluator%20v1", -- Tap Simulator
+    [72858262610964] = "https://raw.githubusercontent.com/imhenne183/Scripts/refs/heads/main/NovaHub%20Tap%20Simluator%20Reborn", -- Tap Simulator Reborn
 }
